@@ -1,0 +1,40 @@
+body {
+    display: flex; 
+    background-color: hsl(0, 100%, 74%);
+    background-image:url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    color: white; 
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 700;
+}
+
+.container-right{
+    background-color: white;
+    flex-direction: column;
+    
+}
+
+.free-trial{
+    background-color: hsl(248, 32%, 49%);
+    font-size: 500;
+}
+
+.form {
+    color: hsl(246, 25%, 77%);
+
+    
+
+}
+
+#button {
+    background-color: hsl(154, 59%, 51%);
+    font: white; 
+    font-size: 500;
+}
+
+
+.terms{ 
+    color:hsl(246, 25%, 77%);
+}
