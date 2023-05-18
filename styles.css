@@ -10,6 +10,11 @@ h1 {
     font-size: 700;
 }
 
+.container-left {
+   align-content: center;
+   margin: 3rem;
+}
+
 .container-right{
     text-align: center;
 }
@@ -19,9 +24,10 @@ h1 {
     padding: .75rem; 
     box-shadow: 0px .3rem .1rem hsla(249, 10%, 26%, 0.35);
 }
+
 .free-trial{
     background-color: hsl(248, 32%, 49%);
-    font-size: 500; 
+    text-align: center;
 }
 
 .form {
@@ -32,17 +38,16 @@ h1 {
 }
 
 form > input {
-    border: solid 1px hsl(246, 25%, 77%);
+    border: 1px solid hsl(246, 25%, 77%);
     border-radius: .25rem;
     font: hsl(246, 25%, 77%);
     font-weight: 600;
-    margin-bottom: 1rem;
     padding: .75rem; 
-    
+    margin: 1rem 1rem .25rem; 
 }
 
 form > input:focus{
-    border: solid 1px  hsl(249, 10%, 26%);
+    border: 1px solid hsl(249, 10%, 26%);
 }
 
 #button {
@@ -52,12 +57,14 @@ form > input:focus{
     font-size: 500;
 }
 
-.terms{ 
+.terms { 
     color:hsl(246, 25%, 77%);
 }
 
 .terms > strong {
-    font:  hsl(0, 100%, 74%);
+    font:hsl(0, 100%, 74%);
 }
 
-/* git saving check  */
+.error{
+    border: 1px solid (0, 100%, 74%);
+}
