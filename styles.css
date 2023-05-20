@@ -47,6 +47,7 @@ h1 {
     flex-direction: column;
 }
 
+
 form > input {
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: .25rem;
@@ -60,7 +61,7 @@ form > input:hover {
     border: 1px solid black;
 }
 
-#button {
+#claim-trial {
     background-color: hsl(154, 59%, 51%);
     box-shadow: 0px .1rem .1rem rgba(0, 0, 0, 0.569);
     color: white;
@@ -76,6 +77,6 @@ form > input:hover {
     color:hsl(0, 100%, 74%);
 }
 
-.error{
+.error {
     border: 1px solid hsl(0, 100%, 74%);
 }
