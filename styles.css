@@ -57,8 +57,9 @@ form > input {
     padding: .75rem; 
 }
 
-form > input:hover {
+form > input:focus-visible, form > input:hover {
     border: 1px solid black;
+    outline:rgba(0, 0, 0, 0.569) auto 1px;
 }
 
 #claim-trial {
