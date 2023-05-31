@@ -11,8 +11,9 @@ const onSubmit = () => {
             // document.getElementById("error-visibility").style.visibility="visible";
               
         } 
-        
-    })
+        return document.getElementById("email").value += "email@example/com";
+    } )
+  
 }
 
 
