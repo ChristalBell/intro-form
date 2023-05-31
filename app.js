@@ -7,9 +7,11 @@ const onSubmit = () => {
     
     info.forEach((input) => {
         if (input.value === "") {
-            input.classList.add("error");
+            input.classList.add("error"); 
+            // document.getElementById("error-visibility").style.visibility="visible";
+              
         } 
-
+        
     })
 }
 
